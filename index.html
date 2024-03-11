@@ -10,10 +10,12 @@
 
 <body>
   <div class = "container">
-    <h1>Gif Party</h1>
-  <form>
-    <input id="input" type = "text" required>
+    <h1>GIF PARTY!</h1>
+  <form id="searchForm">
+    <input id="input" type = "text" required placeholder="Enter text here"><br>
   <button type = "submit" id = "getGif">Search for Gif</button>
+  <button type="button" id="removeAllGifs">Remove All</button>
+  <hr>
   <ul id = "gifs">
 
 
@@ -21,7 +23,7 @@
   </ul>
   </form>
   </div>
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
 <script src="giphyParty.js"></script>
 </body>

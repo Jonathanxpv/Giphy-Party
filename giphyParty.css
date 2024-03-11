@@ -1,0 +1,47 @@
+h1 {
+    font-family: unset;
+    font-size: 5rem;
+
+}
+
+body {
+    background-color: rgb(109, 109, 142);
+}
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#gifs img {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the space */
+    margin: 5px; /* Add some margin for better spacing */
+}
+
+#gifs li {
+    list-style: none; /* Remove default list styling */
+    display: inline-block; /* Display LI elements in a row */
+}
+
+#getGif {
+    border-radius: 5px;
+    background-color: rgb(8, 191, 8);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#removeAllGifs {
+    border-radius: 5px;
+    background-color: rgb(224, 50, 50);
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+#input {
+    border-radius: 5px;
+}
